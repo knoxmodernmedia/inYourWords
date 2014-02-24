@@ -65,3 +65,22 @@ the new content, and that is pretty far down the DOM. I doubt you will have any 
 if you are super concerned maybe put them in a little css file or (gasp) put them in a <style> tag. 
 
 That is all, I am open to suggestions, improvements, feel free to grab a fork and start improving. Thanks!
+
+
+###ADDED GOOGLE FONTS SUPPORT###
+to add google fonts to your project, add the google fonts script right before the body close tag:
+
+				<script type="text/javascript" src="googlefonts.inYourWords.js"></script>
+
+Then inside a script create an array of the google fonts you want to use, URL encoding them with + signs:
+
+				google_fonts = ["Meie+Script", "Modern+Antiqua", "Frijole", "Gochi+Hand", "Voces","Akronim", "Mystery Quest"];  
+
+finally call the script with your array (use $(window).load to make sure the editor has already loaded):
+	
+				$(window).load(function(){
+      			    Editor_Google_Fonts(google_fonts);
+      			});
+
+the editor will load the fonts, tag them and the php class will insert scripts to add the fonts in the output product. Note 
+this means you cannot sanitize after the class has run, or you will lose the fonts.  
