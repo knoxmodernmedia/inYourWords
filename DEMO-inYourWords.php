@@ -32,7 +32,7 @@ textarea{
 </style>
 </head>
 <body>
-<form action="wordstest.php" method="POST">
+<form action="DEMO-resulting_text.php" method="POST">
 
 
 
