@@ -33,7 +33,7 @@
        var parent = $('#words').parent();
        
        $(parent).prepend(
-       '<style>\n@font-face{font-family:InYourWords; src:url("inyourwords.woff") format("woff"), url("inyourwords.eot") format("eot"), url("inyourwords.ttf") format("truetype"), url("inyourwords.svg") format("svg");\n}\n\r'+     
+       '<style>\n@font-face{font-family:InYourWords; src:url("styling/inyourwords.woff") format("woff"), url("styling/inyourwords.eot") format("eot"), url("styling/inyourwords.ttf") format("truetype"), url("styling/inyourwords.svg") format("svg");\n}\n\r'+     
        '#InYourWords{\nborder-bottom-left-radius:.25rem;\nborder-bottom-right-radius:.25rem;\nbox-sizing:border-box;\n-moz-box-sizing:border-box;\n-webkit-box-sizing:border-box;\nborder:thick solid #777;\n}\n\r'+
        '#IYW_controls button, .IYW_button{\nfont-family:"InYourWords";\nwidth:33.333%;\nmargin:0%;\npadding:0;\nheight:3rem;\ntext-align:center;\nvertical-align:middle;\nborder:none;\nborder-left:thick solid #777;\nborder-bottom:thick solid #777;\nbackground:linear-gradient(to  bottom right,#ccc 80%, #fff 100% );'+
        '\n-webkit-transition:all,.25s;\n-moz-transition:all,.25s;\ntransition:all,.25s;\n}\n\r'+
@@ -45,7 +45,7 @@
        '#IYW_controls ul li{\nfont-family:"inYourWords";\ncursor:pointer;\n}\n\r#IYW_controls ul li:hover{\nbackground:#ccc;\ncolor:#222;\n}\n\r'+
        '.edit_select_open{\ndisplay:inline-block!important;\n}\n\r'+
        '#edit_colors_options li{\ntext-align:center;\nbackground:#777;\n}\n\r'+
-       '#IYW_frame_wrapper{\ndisplay:inline-block;\nbackground:#fff;\nbackground-image:url(IYW_logo.png);\nbackground-repeat:no-repeat;\nbackground-position:calc(100% - 1rem) calc(100% - 1rem);\n}\n\r'+
+       '#IYW_frame_wrapper{\ndisplay:inline-block;\nbackground:#fff;\nbackground-image:url(styling/IYW_logo.png);\nbackground-repeat:no-repeat;\nbackground-position:calc(100% - 1rem) calc(100% - 1rem);\n}\n\r'+
        '</style>'+    
        '<div id="IYW_controls" name="IYW_controls">'+
        '<button id="select_font_name" onclick="edit_show_select(this);return false;" >'+

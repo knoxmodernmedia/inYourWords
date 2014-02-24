@@ -6,7 +6,7 @@
 <!--[if !lte IE 9]> --><meta name="viewport" content="width=device-width, initial-scale=1"><!-- <![endif]-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<script type="text/javascript" src="../inYourWords.js"></script>
+<script type="text/javascript" src="inYourWords.js"></script>
 
 <style>
 form{
